@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+    int age = 18;
+    double height = 175.5;
+    char grade = 'A';
+
+    printf("%d\n", age);
+    printf("%.1f\n", height);
+    printf("%c\n", grade);
+
+    return 0;
+}
